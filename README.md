@@ -1,13 +1,16 @@
 Hotel Booking Analysis 
 
 Problem Statement 
+
 This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things. All personally identifying information has been removed from the data.
 Explore and analyze the data to discover important factors that govern the bookings.
 
 Introduction
+
 When we hear about hotel booking we used some application  for hotel booking. The main few things I will usually consider include prices per night, distance of hotel from attractions and restaurants, availability of free breakfasts, scenery in hotel room, cleaniness of hotel room and of course, availability of free wifi. In this dataset, we ae able to know different types of bookings (i.e type of hotel, duration of stay, types of visitors, types of booking, etc).
 
 Data Cleaning and feature Engeering 
+
 (1) Handling null values
 Null values in columns company and agent were replaced by 0.
 Null values in column country were replaced by 'others'.
@@ -22,6 +25,7 @@ Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_ni
 Created new column total_people by adding adults+children+babies.
 
 Exploratory Data Analysis
+
 Q1) Which agent makes the most no. of bookings?
  Q2) Which room type is in most demand and which room type generatesthe  highest adr?
  Q3) Which meal type isthe  most preffered meal of customers?
@@ -46,6 +50,7 @@ Q1) Which agent makes the most no. of bookings?
  Q22) Which types of customers mostly make bookings?
 
 Conclusion
+
 Guests use different channels for making bookings out of which most preferred way is TA/TO
 overall adr of City hotel is slightly higher than Resort hotel
 Both hotels have significantly higher booking cancellation rates
